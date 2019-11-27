@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="" />
+    <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/Saab95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Saab95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/Scania.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Scania.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/Volvo240.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Volvo240.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movable.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dokument\Objektorienterad_Programmering\Lab2A\src\pics" />
       <recent name="C:\Dokument\Objektorienterad_Programmering\Lab2A\src" />
       <recent name="C:\Dokument\Objektorienterad_Programmering\Lab2A\GUI" />
     </key>
@@ -58,7 +65,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarCarrierTruckTest.unloadTransportableTest">
+  <component name="RunManager" selected="Application.CarController">
+    <configuration name="CarController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarController" />
+      <module name="Lab1B" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="Lab1B" />
       <method v="2">
@@ -104,22 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkshopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WorkshopTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarController" />
         <item itemvalue="JUnit.CarCarrierTruckTest.unloadTransportableTest" />
         <item itemvalue="JUnit.CarCarrierTruckTest.moveTest" />
         <item itemvalue="JUnit.CarCarrierTruckTest" />
         <item itemvalue="JUnit.CarCarrierTruckTest.closeEnoughTest" />
-        <item itemvalue="JUnit.WorkshopTest" />
       </list>
     </recent_temporary>
   </component>

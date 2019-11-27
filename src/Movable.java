@@ -28,13 +28,13 @@ public abstract class Movable implements IMovable {
     public void move() {
         switch (currentDirection){
             case NORTH:
-                y += currentSpeed;
+                y -= currentSpeed;
                 break;
             case EAST:
                 x += currentSpeed;
                 break;
             case SOUTH:
-                y -= currentSpeed;
+                y += currentSpeed;
                 break;
             case WEST:
                 x -= currentSpeed;

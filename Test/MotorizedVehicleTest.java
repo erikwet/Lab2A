@@ -1,6 +1,8 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
+import javax.sound.midi.Soundbank;
+
 
 public class MotorizedVehicleTest {
 
@@ -60,7 +62,7 @@ public class MotorizedVehicleTest {
         volvo.setY(0);
         volvo.setCurrentSpeed(5);
         volvo.move();
-        assertEquals(5, volvo.getY(), 0.001);
+        assertEquals(-5, volvo.getY(), 0.001);
 
         saab.setCurrentDirection(IMovable.Direction.EAST);
         saab.setX(0);
@@ -107,5 +109,11 @@ public class MotorizedVehicleTest {
         saab.setCurrentSpeed(100);
         saab.brake(1);
         assertEquals(98.75, saab.getCurrentSpeed(), 0.0001);
+    }
+    @Test
+    public void test(){
+        volvo.setCurrentDirection(IMovable.Direction.SOUTH);
+        volvo.oppositeDirection();
+        assertEquals(IMovable.Direction.NORTH, volvo.getCurrentDirection());
     }
 }

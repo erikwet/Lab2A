@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 /*
@@ -45,11 +46,16 @@ public class CarController {
         public void actionPerformed(ActionEvent e) {
             for (MotorizedVehicle car : cars) {
                 car.move();
+                lockInBounds(car, frame.drawPanel.carImage);
                 int x = (int) Math.round(car.getX());
                 int y = (int) Math.round(car.getY());
+                car.stopEngine();
+                car.oppositeDirection();
+                car.startEngine();
                 frame.drawPanel.moveit(x, y);
                 // repaint() calls the paintComponent method of the panel
                 frame.drawPanel.repaint();
+
             }
         }
     }
@@ -61,5 +67,18 @@ public class CarController {
                 ) {
             car.gas(gas);
         }
+    }
+    void brake(int amount) {
+        double brake = ((double) amount) / 100;
+        for (MotorizedVehicle car : cars
+        ) {
+            car.brake(brake);
+        }
+    }
+    public void lockInBounds(MotorizedVehicle car, BufferedImage carImage){
+        double x = (Math.min((frame.getWidth()-carImage.getWidth()), car.getX()));
+        car.setX(Math.max(0, x));
+        double y = (Math.min((frame.getHeight()-carImage.getHeight()), car.getY()));
+        car.setY(Math.max(0, y));
     }
 }

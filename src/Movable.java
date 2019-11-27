@@ -1,3 +1,5 @@
+import java.awt.image.BufferedImage;
+
 /**
  * @author Oscar Arvidson and Erik Wetter
  * Abstract super class of all movable objects
@@ -42,6 +44,23 @@ public abstract class Movable implements IMovable {
         }
     }
 
+    public void oppositeDirection() {
+        switch(currentDirection) {
+            case NORTH:
+                currentDirection = Direction.SOUTH;
+                break;
+            case EAST:
+                currentDirection = Direction.WEST;
+                break;
+            case SOUTH:
+                currentDirection = Direction.NORTH;
+                break;
+            case WEST:
+                currentDirection = Direction.EAST;
+                break;
+        }
+    }
+
     /**
      * Makes object turn left depending on current direction
      */
@@ -68,7 +87,7 @@ public abstract class Movable implements IMovable {
      */
     @Override
     public void turnRight() {
-        switch (getCurrentDirection()) {
+        switch (currentDirection) {
             case NORTH:
                 currentDirection = Direction.EAST;
                 break;

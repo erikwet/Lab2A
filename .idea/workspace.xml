@@ -2,11 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/Saab95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Saab95.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/Scania.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Scania.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/Volvo240.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics/Volvo240.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/MotorizedVehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MotorizedVehicleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarCarrierTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarCarrierTruck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarController$TimerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarController$TimerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/CarView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/CarView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/DrawPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/FlatbedTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/FlatbedTruck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/IMovable$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/IMovable$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/IMovable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/IMovable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/IPositionable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/IPositionable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/ITransportable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/ITransportable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/ITransportableHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/ITransportableHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/MANTGXD38.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/MANTGXD38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/MotorizedVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/MotorizedVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Movable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Movable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Movable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Movable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Saab95.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Saab95.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Scania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Scania.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/TransportableHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/TransportableHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Volvo240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Volvo240.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Workshop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Workshop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/CarCarrierTruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1B/CarCarrierTruckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/FlatbedTruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1B/FlatbedTruckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/MotorizedVehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1B/MotorizedVehicleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/Saab95Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1B/Saab95Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/WorkshopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1B/WorkshopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Volvo240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Volvo240.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +69,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TDA552/Övningar/Block21-Exercise-Master" />
+    <property name="last_opened_file_path" value="C:/TDA552/Övningar/Block21-Exercise-Master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,25 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarCarrierTruckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarCarrierTruckTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarCarrierTruckTest.closeEnoughTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarCarrierTruckTest" />
-      <option name="METHOD_NAME" value="closeEnoughTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CarCarrierTruckTest.moveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1B" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,13 +130,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MotorizedVehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1B" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MotorizedVehicleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorizedVehicleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1B" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MotorizedVehicleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CarController" />
+        <item itemvalue="JUnit.MotorizedVehicleTest.test" />
+        <item itemvalue="JUnit.MotorizedVehicleTest" />
         <item itemvalue="JUnit.CarCarrierTruckTest.unloadTransportableTest" />
         <item itemvalue="JUnit.CarCarrierTruckTest.moveTest" />
-        <item itemvalue="JUnit.CarCarrierTruckTest" />
-        <item itemvalue="JUnit.CarCarrierTruckTest.closeEnoughTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,16 +196,16 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab1B$Saab95Test.ic" NAME="Saab95Test Coverage Results" MODIFIED="1574424158002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1$MovableTest.ic" NAME="MovableTest Coverage Results" MODIFIED="1573738945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1573812646506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$MotorizedVehicleTest.ic" NAME="MotorizedVehicleTest Coverage Results" MODIFIED="1574424164686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1$MovableTest_testTurnLeft.ic" NAME="MovableTest.testTurnLeft Coverage Results" MODIFIED="1573220328881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1$MovableTest.ic" NAME="MovableTest Coverage Results" MODIFIED="1573738945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest_loadTransportable.ic" NAME="WorkshopTest.loadTransportable Coverage Results" MODIFIED="1574424028589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$Saab95Test.ic" NAME="Saab95Test Coverage Results" MODIFIED="1574424158002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1574424170362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest.ic" NAME="CarCarrierTruckTest Coverage Results" MODIFIED="1574426104518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1$MovableTest_testGas.ic" NAME="MovableTest.testGas Coverage Results" MODIFIED="1573656176056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest.ic" NAME="WorkshopTest Coverage Results" MODIFIED="1574426113075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest_moveTest.ic" NAME="CarCarrierTruckTest.moveTest Coverage Results" MODIFIED="1574425697528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest.ic" NAME="CarCarrierTruckTest Coverage Results" MODIFIED="1574426104518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1573812646506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1$MovableTest_testGas.ic" NAME="MovableTest.testGas Coverage Results" MODIFIED="1573656176056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$MotorizedVehicleTest.ic" NAME="MotorizedVehicleTest Coverage Results" MODIFIED="1574424164686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1574424170362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest_loadTransportable.ic" NAME="WorkshopTest.loadTransportable Coverage Results" MODIFIED="1574424028589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

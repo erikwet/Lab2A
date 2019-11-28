@@ -1,3 +1,7 @@
+import Model.Car;
+import Model.Saab95;
+import Model.Volvo240;
+import Model.Workshop;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

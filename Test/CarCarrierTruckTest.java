@@ -1,3 +1,4 @@
+import Model.*;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -48,19 +49,17 @@ public class CarCarrierTruckTest {
     @Test
     public void closeEnoughTest(){
         volvo.setX(100);
-        volvo.setY(100);
+        volvo.setY(50);
         MANTGXD38.setX(100);
-        MANTGXD38.setY(100);
+        MANTGXD38.setY(51);
 
         assertEquals(true, MANTGXD38.closeEnough(volvo));
     }
 
     @Test
     public void moveTest(){
-        volvo.setX(10);
-        volvo.setY(13);
-        MANTGXD38.setX(13);
-        MANTGXD38.setY(10);
+        volvo.setX(200);
+        volvo.setY(100);
         MANTGXD38.setCurrentDirection(IMovable.Direction.NORTH);
         MANTGXD38.getTransporterStorageList().clear();
         MANTGXD38.lowerRamp();
@@ -68,7 +67,7 @@ public class CarCarrierTruckTest {
         MANTGXD38.raiseRamp();
         MANTGXD38.setCurrentSpeed(5);
         MANTGXD38.move();
-        assertEquals(105, MANTGXD38.getY(), 0.0001);
+        assertEquals(95, MANTGXD38.getY(), 0.0001);
         assertEquals(MANTGXD38.getY(), volvo.getY(), 0.0001);
     }
 

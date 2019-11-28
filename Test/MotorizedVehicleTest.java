@@ -1,7 +1,9 @@
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
-import javax.sound.midi.Soundbank;
+import Model.IMovable;
+import Model.Saab95;
+import Model.Volvo240;
+import org.junit.Test;
 
 
 public class MotorizedVehicleTest {

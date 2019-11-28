@@ -46,12 +46,14 @@ public class CarController {
         public void actionPerformed(ActionEvent e) {
             for (MotorizedVehicle car : cars) {
                 car.move();
-                lockInBounds(car, frame.drawPanel.carImage);
                 int x = (int) Math.round(car.getX());
                 int y = (int) Math.round(car.getY());
-                car.stopEngine();
-                car.oppositeDirection();
-                car.startEngine();
+                if(outOfBounds(x,y, frame.drawPanel.carImage)) {
+                    car.stopEngine();
+                    setInBounds(car, frame.drawPanel.carImage);
+                    car.oppositeDirection();
+                    car.startEngine();
+                }
                 frame.drawPanel.moveit(x, y);
                 // repaint() calls the paintComponent method of the panel
                 frame.drawPanel.repaint();
@@ -75,10 +77,16 @@ public class CarController {
             car.brake(brake);
         }
     }
-    public void lockInBounds(MotorizedVehicle car, BufferedImage carImage){
-        double x = (Math.min((frame.getWidth()-carImage.getWidth()), car.getX()));
+
+    boolean outOfBounds(int x, int y, BufferedImage carImage){
+        return x < 0 || x > (frame.drawPanel.getWidth()-carImage.getWidth()) || y < 0 || y > (frame.drawPanel.getHeight()-carImage.getHeight());
+    }
+
+   public void setInBounds(MotorizedVehicle car, BufferedImage carImage){
+        double x = (Math.min((frame.drawPanel.getWidth()-carImage.getWidth()), car.getX()));
         car.setX(Math.max(0, x));
-        double y = (Math.min((frame.getHeight()-carImage.getHeight()), car.getY()));
+        double y = (Math.min((frame.drawPanel.getHeight()-carImage.getHeight()), car.getY()));
         car.setY(Math.max(0, y));
     }
+
 }

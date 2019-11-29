@@ -13,7 +13,7 @@ public class Saab95 extends Car {
     private boolean turboOn;
 
     public Saab95(){
-        super(Direction.NORTH, 50, 50, 5, 125, Color.black, "Model.Saab95", 1.75, 1.53, 4.27);
+        super(Direction.EAST, 0, 150, 5, 125, Color.black, "Model.Saab95", 1.75, 1.53, 4.27);
 	    turboOn = false;
     }
 
@@ -39,6 +39,6 @@ public class Saab95 extends Car {
     protected double speedFactor(){
         double turbo = 1;
         if(turboOn) turbo = 1.3;
-        return getEnginePower() * 0.01 * turbo;
+        return super.speedFactor() * turbo;
     }
 }

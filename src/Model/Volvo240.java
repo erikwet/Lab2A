@@ -10,7 +10,7 @@ public class Volvo240 extends Car {
     private final static double trimFactor = 1.25;
 
     public Volvo240(){
-        super(Direction.NORTH, 280, 280, 5, 100, Color.white, "Model.Volvo240", 1.8, 1.6, 4.5);
+        super(Direction.EAST, 0, 50, 5, 100, Color.white, "Model.Volvo240", 1.8, 1.6, 4.5);
     }
 
     /**
@@ -19,6 +19,6 @@ public class Volvo240 extends Car {
      */
     @Override
     protected double speedFactor(){
-        return getEnginePower() * 0.01 * trimFactor;
+        return super.speedFactor() * trimFactor;
     }
 }

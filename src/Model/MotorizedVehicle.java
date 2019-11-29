@@ -63,7 +63,7 @@ public class MotorizedVehicle extends Movable{
      * Returns speed factor of motorized vehicle
      * @return Returns speed factor
      */
-    protected double speedFactor() { return 1; }
+    protected double speedFactor() { return (getEnginePower() * 0.01); }
 
     /**
      * Increments speed of motorized vehicle depending on amount

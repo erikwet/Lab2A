@@ -13,14 +13,16 @@ import javax.swing.*;
 
 public class DrawPanel extends JPanel{
 
-    static ArrayList<BufferedImage> carImages = new ArrayList<>();
+    ArrayList<BufferedImage> carImages = new ArrayList<>();
     // To keep track of a single cars position
-    Point carPoint = new Point();
+    ArrayList<Point> carPoints = new ArrayList<>();
 
     // TODO: Make this genereal for all cars
-    void moveit(int x, int y){
-        carPoint.x = x;
-        carPoint.y = y;
+    void moveit(int x, int y, int i){
+        Point p = new Point();
+        p.x = x;
+        p.y = y;
+        carPoints.set(i, p);
     }
 
     // Initializes the panel and reads the images
@@ -39,6 +41,9 @@ public class DrawPanel extends JPanel{
             carImages.add(ImageIO.read(DrawPanel.class.getResourceAsStream("pics/Volvo240.jpg")));
             carImages.add(ImageIO.read(DrawPanel.class.getResourceAsStream("pics/Saab95.jpg")));
             carImages.add(ImageIO.read(DrawPanel.class.getResourceAsStream("pics/Scania.jpg")));
+            carPoints.add(0, new Point());
+            carPoints.add(1, new Point());
+            carPoints.add(2, new Point());
         } catch (IOException ex)
         {
             ex.printStackTrace();
@@ -51,6 +56,9 @@ public class DrawPanel extends JPanel{
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(carImages.get(0), carPoint.x, carPoint.y, null); // see javadoc for more info on the parameters
+        for(int i = 0; i < carImages.size(); i++) {
+            g.drawImage(carImages.get(i), carPoints.get(i).x, carPoints.get(i).y, null);
+        }
+         // see javadoc for more info on the parameters
     }
 }

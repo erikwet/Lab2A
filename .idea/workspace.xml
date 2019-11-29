@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/FlatbedTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Model/FlatbedTruck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/MotorizedVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1B/Model/MotorizedVehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CarView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/FlatbedTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/FlatbedTruck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/MotorizedVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MotorizedVehicle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +19,13 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="UML Sequence" />
+        <option value="UML Component" />
+        <option value="UML Gantt" />
+        <option value="Salt Wireframe" />
+        <option value="Work Breakdown Structure" />
+        <option value="UML Class" />
+        <option value="UML MindMap" />
       </list>
     </option>
   </component>
@@ -40,15 +37,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML MindMap" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/TDA552/Övningar/Block21-Exercise-Master" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Model" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -183,7 +182,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/GUI/CarController.java</url>
           <line>48</line>
-          <properties class="CarController.TimerListener" method="actionPerformed">
+          <properties class="GUI.CarController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />

@@ -46,8 +46,10 @@ public class MotorizedVehicle extends Movable{
      * @param amount Amount the speed should be increased with
      */
     public void gas(double amount) {
+        if(getCurrentSpeed() != 0){
         amount = Math.max(amount, 0);
         incrementSpeed(Math.min(amount, 1));
+        }
     }
 
     /**

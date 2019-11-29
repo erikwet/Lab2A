@@ -55,7 +55,7 @@ public class FlatbedTruck extends MotorizedVehicle {
      */
     public void setFlatbedAngle(int angle) {
         if(getCurrentSpeed() != 0) {
-            setFlatbedAngle(0);
+            flatbedAngle = 0;
         } else {
             angle = Math.min(angle, flatbedAngleMax);
             flatbedAngle = Math.max(angle, 0);

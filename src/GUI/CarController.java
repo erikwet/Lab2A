@@ -91,6 +91,53 @@ public class CarController {
         }
     }
 
+    void setTurboOn(){
+        for(MotorizedVehicle car: cars){
+            if(car.getClass() == Saab95.class){
+                Saab95 s = (Saab95) car;
+                s.setTurboOn();
+            }
+        }
+    }
+
+    void setTurboOff(){
+        for(MotorizedVehicle car: cars){
+            if(car.getClass() == Saab95.class){
+                Saab95 s = (Saab95) car;
+                s.setTurboOff();
+            }
+        }
+    }
+
+    void raiseFlatbed(){
+        for(MotorizedVehicle car: cars){
+            if(car.getClass() == Scania.class){
+                Scania s = (Scania) car;
+                s.raiseFlatbed();
+            }
+        }
+    }
+
+    void lowerFlatbed() {
+        for(MotorizedVehicle car: cars){
+            if(car.getClass() == Scania.class){
+                Scania s = (Scania) car;
+                s.lowerFlatbed();
+            }
+        }
+    }
+    void stopAllCars() {
+        for(MotorizedVehicle car: cars){
+            car.setCurrentSpeed(0);
+        }
+    }
+
+    void startAllCars() {
+        for(MotorizedVehicle car: cars){
+            car.setCurrentSpeed(0.1);
+        }
+    }
+
     /**
      * Check if a car image is out of bounds
      * @param x X position of image

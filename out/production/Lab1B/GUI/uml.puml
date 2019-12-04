@@ -1,0 +1,7 @@
+@startuml
+
+class MotorizedVehicle
+class Car
+
+MotorizedVehicle <|-- CA
+@enduml

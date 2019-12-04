@@ -1,0 +1,62 @@
+@startuml
+
+title __GUI's Class Diagram__\n
+
+class GUI.CarController {
+  ~ cars : ArrayList<MotorizedVehicle>
+  - delay : int
+  - timer : Timer
+  {static} + main()
+  + setInBounds()
+  ~ brake()
+  ~ gas()
+  ~ lowerFlatbed()
+  ~ outOfBounds()
+  ~ raiseFlatbed()
+  ~ setTurboOff()
+  ~ setTurboOn()
+  ~ startAllCars()
+  ~ stopAllCars()
+}
+
+class GUI.CarController.TimerListener {
+  + actionPerformed()
+}
+
+class GUI.CarView {
+  ~ brakeButton : JButton
+  ~ controlPanel : JPanel
+  ~ gasAmount : int
+  ~ gasButton : JButton
+  ~ gasLabel : JLabel
+  ~ gasPanel : JPanel
+  ~ gasSpinner : JSpinner
+  ~ liftBedButton : JButton
+  ~ lowerBedButton : JButton
+  ~ startButton : JButton
+  ~ stopButton : JButton
+  ~ turboOffButton : JButton
+  ~ turboOnButton : JButton
+  {static} - X : int
+  {static} - Y : int
+  + CarView()
+  - initComponents()
+}
+
+class GUI.DrawPanel {
+  ~ carImages : ArrayList<BufferedImage>
+  ~ carPoints : ArrayList<Point>
+  + DrawPanel()
+  # paintComponent()
+  ~ moveit()
+}
+
+  GUI.CarController o-- GUI.CarView : frame
+  GUI.CarController +-down- GUI.CarController.TimerListener
+  GUI.CarController.TimerListener .up.|> java.awt.event.ActionListener
+  GUI.CarView -up-|> javax.swing.JFrame
+  GUI.CarView o-- GUI.CarController : carC
+  GUI.CarView o-- GUI.DrawPanel : drawPanel
+  GUI.DrawPanel -up-|> javax.swing.JPanel
+
+@enduml

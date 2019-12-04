@@ -1,0 +1,197 @@
+@startuml
+
+title __MODEL's Class Diagram__\n
+
+      class Model.Car {
+          + Car()
+      }
+
+      class Model.CarCarrierTruck {
+          - isRampUp : boolean
+          + CarCarrierTruck()
+          + closeEnough()
+          + getTransporterStorageList()
+          + loadTransportable()
+          + lowerRamp()
+          + move()
+          + raiseRamp()
+          + setCurrentSpeed()
+          + setX()
+          + setY()
+          + transportableFits()
+          + transporterIsNotFull()
+          + unloadTransportable()
+          + updateStoredObjectsPosition()
+      }
+
+      class Model.FlatbedTruck {
+          - flatbedAngle : int
+          - flatbedAngleMax : int
+          + FlatbedTruck()
+          + getFlatbedAngle()
+          + lowerFlatbed()
+          + raiseFlatbed()
+          + setCurrentSpeed()
+          + setFlatbedAngle()
+      }
+
+      interface Model.IMovable {
+          {abstract} + getCurrentDirection()
+          {abstract} + getCurrentSpeed()
+          {abstract} + move()
+          {abstract} + setCurrentDirection()
+          {abstract} + setCurrentSpeed()
+          {abstract} + setX()
+          {abstract} + setY()
+          {abstract} + turnLeft()
+          {abstract} + turnRight()
+      }
+
+      enum Direction {
+        EAST
+        NORTH
+        SOUTH
+        WEST
+      }
+
+      interface Model.IPositionable {
+          {abstract} + getX()
+          {abstract} + getY()
+      }
+
+      interface Model.ITransportable {
+          {abstract} + getHeightMeter()
+          {abstract} + getLengthMeter()
+          {abstract} + getWidthMeter()
+      }
+
+      interface Model.ITransportableHolder {
+          {abstract} + closeEnough()
+          {abstract} + loadTransportable()
+          {abstract} + transportableFits()
+          {abstract} + transporterIsNotFull()
+          {abstract} + unloadTransportable()
+      }
+
+      class Model.MANTGXD38 {
+          + MANTGXD38()
+      }
+
+      class Model.MotorizedVehicle {
+          - color : Color
+          - enginePower : double
+          - heightMeter : double
+          - lengthMeter : double
+          - modelName : String
+          - nrDoors : int
+          - widthMeter : double
+          + MotorizedVehicle()
+          + brake()
+          + decrementSpeed()
+          + gas()
+          + getColor()
+          + getEnginePower()
+          + getHeightMeter()
+          + getLengthMeter()
+          + getNrDoors()
+          + getWidthMeter()
+          + incrementSpeed()
+          + setCurrentSpeed()
+          + startEngine()
+          + stopEngine()
+          # speedFactor()
+      }
+
+      abstract class Model.Movable {
+          - currentSpeed : double
+          - x : double
+          - y : double
+          + Movable()
+          + getCurrentDirection()
+          + getCurrentSpeed()
+          + getX()
+          + getY()
+          + move()
+          + oppositeDirection()
+          + setCurrentDirection()
+          + setCurrentSpeed()
+          + setX()
+          + setY()
+          + turnLeft()
+          + turnRight()
+      }
+
+      class Model.Saab95 {
+          - turboOn : boolean
+          + Saab95()
+          + setTurboOff()
+          + setTurboOn()
+          # speedFactor()
+      }
+
+      class Model.Scania {
+          + Scania()
+          # speedFactor()
+      }
+
+      class Model.TransportableHolder {
+          # transporterStorageList : Deque<T>
+          # x : double
+          # y : double
+          - isLoadingPointOpen : boolean
+          - maxStoredObjects : int
+          - maxTransportableHeight : double
+          - maxTransportableLength : double
+          - maxTransportableWidth : double
+          + TransportableHolder()
+          + closeEnough()
+          + closeLoadingPoint()
+          + getX()
+          + getY()
+          + loadTransportable()
+          + openLoadingPoint()
+          + transportableFits()
+          + transporterIsNotFull()
+          + unloadTransportable()
+          + updateStoredObjectsPosition()
+      }
+
+      class Model.Volvo240 {
+          {static} - trimFactor : double
+          + Volvo240()
+          # speedFactor()
+      }
+
+      class Model.Workshop {
+          + Workshop()
+          + closeEnough()
+          + closeLoadingPoint()
+          + getTransporterStorageList()
+          + getX()
+          + getY()
+          + loadTransportable()
+          + openLoadingPoint()
+          + transportableFits()
+          + transporterIsNotFull()
+          + unloadTransportable()
+      }
+
+  Model.Car .up.|> Model.ITransportable
+  Model.Car -up-|> Model.MotorizedVehicle
+  Model.CarCarrierTruck .up.|> Model.ITransportableHolder
+  Model.CarCarrierTruck -up-|> Model.MotorizedVehicle
+  Model.CarCarrierTruck o-- Model.TransportableHolder : transportableHolderParent
+  Model.FlatbedTruck -up-|> Model.MotorizedVehicle
+  Model.IMovable +-down- Model.IMovable.Direction
+  Model.MANTGXD38 -up-|> Model.CarCarrierTruck
+  Model.MotorizedVehicle -up-|> Model.Movable
+  Model.Movable .up.|> Model.IMovable
+  Model.Movable o-- Model.IMovable.Direction : currentDirection
+  Model.Saab95 -up-|> Model.Car
+  Model.Scania -up-|> Model.FlatbedTruck
+  Model.TransportableHolder .up.|> Model.ITransportableHolder
+  Model.Volvo240 -up-|> Model.Car
+  Model.Workshop .up.|> Model.ITransportableHolder
+  Model.Workshop o-- Model.TransportableHolder : transportableHolderParent
+
+@enduml

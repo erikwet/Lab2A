@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/Test.plantuml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML/GUI.plantuml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML/Lab2A.plantuml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML/Model.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2A.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarController$TimerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarPositionAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/DrawPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/CarCarrierTruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/FlatbedTruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/IMovable$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/IMovable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/IPositionable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/ITransportable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/ITransportableHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/MANTGXD38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/MotorizedVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Movable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Movable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Saab95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Scania.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/TransportableHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Volvo240.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/Model/Workshop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/CarCarrierTruckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/FlatbedTruckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/MotorizedVehicleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/Saab95Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1B/WorkshopTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/CarPositionAssociation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UML.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +111,7 @@
   <component name="RunManager" selected="Application.CarController">
     <configuration name="CarController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.CarController" />
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GUI.*" />
@@ -86,13 +123,13 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CarCarrierTruckTest.closeEnoughTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarCarrierTruckTest" />
       <option name="METHOD_NAME" value="closeEnoughTest" />
@@ -102,7 +139,7 @@
       </method>
     </configuration>
     <configuration name="CarCarrierTruckTest.moveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarCarrierTruckTest" />
       <option name="METHOD_NAME" value="moveTest" />
@@ -112,7 +149,7 @@
       </method>
     </configuration>
     <configuration name="Saab95Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Saab95Test" />
       <option name="TEST_OBJECT" value="class" />
@@ -121,7 +158,7 @@
       </method>
     </configuration>
     <configuration name="WorkshopTest.loadTransportableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1B" />
+      <module name="Lab2A" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WorkshopTest" />
       <option name="METHOD_NAME" value="loadTransportableTest" />
@@ -191,16 +228,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab1B$Saab95Test.ic" NAME="Saab95Test Coverage Results" MODIFIED="1574424158002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1$MovableTest.ic" NAME="MovableTest Coverage Results" MODIFIED="1573738945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1$MovableTest_testTurnLeft.ic" NAME="MovableTest.testTurnLeft Coverage Results" MODIFIED="1573220328881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest.ic" NAME="WorkshopTest Coverage Results" MODIFIED="1574426113075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest.ic" NAME="CarCarrierTruckTest Coverage Results" MODIFIED="1574426104518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest_moveTest.ic" NAME="CarCarrierTruckTest.moveTest Coverage Results" MODIFIED="1574425697528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1573812646506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1B$MotorizedVehicleTest.ic" NAME="MotorizedVehicleTest Coverage Results" MODIFIED="1574424164686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1$MovableTest_testTurnLeft.ic" NAME="MovableTest.testTurnLeft Coverage Results" MODIFIED="1573220328881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1$MovableTest.ic" NAME="MovableTest Coverage Results" MODIFIED="1573738945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest_loadTransportable.ic" NAME="WorkshopTest.loadTransportable Coverage Results" MODIFIED="1574424028589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$Saab95Test.ic" NAME="Saab95Test Coverage Results" MODIFIED="1574424158002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1574424170362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest.ic" NAME="CarCarrierTruckTest Coverage Results" MODIFIED="1574426104518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lab1$MovableTest_testGas.ic" NAME="MovableTest.testGas Coverage Results" MODIFIED="1573656176056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest.ic" NAME="WorkshopTest Coverage Results" MODIFIED="1574426113075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab1B$CarCarrierTruckTest_moveTest.ic" NAME="CarCarrierTruckTest.moveTest Coverage Results" MODIFIED="1574425697528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$FlatbedTruckTest.ic" NAME="FlatbedTruckTest Coverage Results" MODIFIED="1574424170362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab1B$WorkshopTest_loadTransportable.ic" NAME="WorkshopTest.loadTransportable Coverage Results" MODIFIED="1574424028589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,0 +1,83 @@
+@startuml
+
+title __LAB2A's Class Diagram__\n
+
+class GUI.CarController {
+}
+class GUI.CarView {
+}
+
+class GUI.DrawPanel {
+}
+
+class Model.Car {
+}
+
+class Model.CarCarrierTruck {
+}
+
+class Model.FlatbedTruck {
+}
+
+interface Model.IMovable {
+}
+
+interface Model.IPositionable {
+}
+
+interface Model.ITransportable {
+}
+
+interface Model.ITransportableHolder {
+}
+
+class Model.MANTGXD38 {
+}
+
+class Model.MotorizedVehicle {
+}
+
+abstract class Model.Movable {
+}
+
+class Model.Saab95 {
+}
+
+class Model.Scania {
+}
+
+class Model.TransportableHolder {
+}
+
+class Model.Volvo240 {
+}
+
+class Model.Workshop {
+}
+
+GUI.CarController o-- GUI.CarView : frame
+GUI.CarView -up-|> javax.swing.JFrame
+GUI.CarView o-- GUI.CarController : carC
+GUI.CarView o-- GUI.DrawPanel : drawPanel
+GUI.DrawPanel -up-|> javax.swing.JPanel
+Model.Car .up.|> Model.ITransportable
+Model.Car -up-|> Model.MotorizedVehicle
+Model.CarCarrierTruck .up.|> Model.ITransportableHolder
+Model.CarCarrierTruck -up-|> Model.MotorizedVehicle
+Model.CarCarrierTruck o-- Model.TransportableHolder : transportableHolderParent
+Model.FlatbedTruck -up-|> Model.MotorizedVehicle
+Model.MANTGXD38 -up-|> Model.CarCarrierTruck
+Model.MotorizedVehicle -up-|> Model.Movable
+Model.Movable .up.|> Model.IMovable
+Model.Movable o-- Model.IMovable.Direction : currentDirection
+Model.Saab95 -up-|> Model.Car
+Model.Scania -up-|> Model.FlatbedTruck
+Model.TransportableHolder .up.|> Model.ITransportableHolder
+Model.Volvo240 -up-|> Model.Car
+Model.Workshop .up.|> Model.ITransportableHolder
+Model.Workshop o-- Model.TransportableHolder : transportableHolderParent
+Model.IMovable -up-|> Model.IPositionable
+Model.ITransportableHolder -up-|> Model.IPositionable
+Model.ITransportable -up-|> Model.IMovable
+
+@enduml

@@ -80,7 +80,7 @@ public class CarController {
     }
 
     /**
-     * Calls the brake method for each  car once
+     * Calls the brake method for each car once
      * @param amount The amount of "power" the cars will brake with
      */
     void brake(int amount) {
@@ -91,6 +91,9 @@ public class CarController {
         }
     }
 
+    /**
+     * Try to call the setTurboOn method for each car once and runs if car is a Saab95
+     */
     void setTurboOn(){
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Saab95.class){
@@ -100,6 +103,9 @@ public class CarController {
         }
     }
 
+    /**
+     * Try to call the setTurboOff method for each car once and runs if car is a Saab95
+     */
     void setTurboOff(){
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Saab95.class){
@@ -109,6 +115,9 @@ public class CarController {
         }
     }
 
+    /**
+     * Try to call the raiseFlatbed method for each car once and runs if car is a Scania
+     */
     void raiseFlatbed(){
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Scania.class){
@@ -118,6 +127,9 @@ public class CarController {
         }
     }
 
+    /**
+     * Try to call the lowerFlatbed method for each car once and runs if car is a Scania
+     */
     void lowerFlatbed() {
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Scania.class){
@@ -126,15 +138,22 @@ public class CarController {
             }
         }
     }
+
+    /**
+     * Calls the stopEngine method for each car once
+     */
     void stopAllCars() {
         for(MotorizedVehicle car: cars){
-            car.setCurrentSpeed(0);
+            car.stopEngine();
         }
     }
 
+    /**
+     * Calls the startEngine method for each car once
+     */
     void startAllCars() {
         for(MotorizedVehicle car: cars){
-            car.setCurrentSpeed(0.1);
+            car.startEngine();
         }
     }
 

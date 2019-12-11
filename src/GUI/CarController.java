@@ -4,10 +4,13 @@ import Model.MotorizedVehicle;
 import Model.Saab95;
 import Model.Scania;
 import Model.Volvo240;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /*
@@ -30,18 +33,32 @@ public class CarController {
     // A list of cars, modify if needed
     ArrayList<MotorizedVehicle> cars = new ArrayList<>();
 
+
     //methods:
 
     public static void main(String[] args) {
         // Instance of this class
         CarController cc = new CarController();
 
-        cc.cars.add(new Volvo240());
+
         cc.cars.add(new Saab95());
+        cc.cars.add(new Volvo240());
         cc.cars.add(new Scania());
 
-        // Start a new view and send a reference of self
         cc.frame = new CarView("CarSim 1.0", cc);
+
+        for (MotorizedVehicle car : cc.cars) {
+            String s = "pics/" + car.getModelName() + ".jpg";
+            System.out.println(s);
+            try {
+                cc.frame.drawPanel.carImages.add(ImageIO.read(DrawPanel.class.getResourceAsStream(s)));
+            }catch(IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        // Start a new view and send a reference of self
+
 
         // Start the timer
         cc.timer.start();
@@ -94,7 +111,7 @@ public class CarController {
     /**
      * Try to call the setTurboOn method for each car once and runs if car is a Saab95
      */
-    void setTurboOn(){
+    void turboOn(){
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Saab95.class){
                 Saab95 s = (Saab95) car;
@@ -106,7 +123,7 @@ public class CarController {
     /**
      * Try to call the setTurboOff method for each car once and runs if car is a Saab95
      */
-    void setTurboOff(){
+    void turboOff(){
         for(MotorizedVehicle car: cars){
             if(car.getClass() == Saab95.class){
                 Saab95 s = (Saab95) car;

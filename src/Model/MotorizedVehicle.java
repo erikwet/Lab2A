@@ -6,7 +6,7 @@ import java.awt.*;
  * @author Oscar Arvidson and Erik Wetter
  * Abstract superclass to all MotorizedVehicles
  */
-public class MotorizedVehicle extends Movable{
+public abstract class MotorizedVehicle extends Movable{
 
     private final int nrDoors; // Number of doors on a motorized vehicle
     private final double enginePower; // Engine power of a motorized vehicle
@@ -149,5 +149,9 @@ public class MotorizedVehicle extends Movable{
      */
     public double getLengthMeter() {
         return lengthMeter;
+    }
+
+    public String getModelName() {
+        return modelName;
     }
 }

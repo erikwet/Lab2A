@@ -49,7 +49,6 @@ public class CarController {
 
         for (MotorizedVehicle car : cc.cars) {
             String s = "pics/" + car.getModelName() + ".jpg";
-            System.out.println(s);
             try {
                 cc.frame.drawPanel.carImages.add(ImageIO.read(DrawPanel.class.getResourceAsStream(s)));
             }catch(IOException ex) {

@@ -3,35 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56a53155-a816-4e78-a8f4-a6f56ba08ad0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/GUI.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Lab2A.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Model.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1B/GUI/CarView$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarController$TimerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarController$TimerListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/GUI/CarView$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/GUI/DrawPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/pics/Scania.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/GUI/pics/UML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/Model/MotorizedVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/Model/MotorizedVehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/Model/Saab95.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/Model/Saab95.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/Model/Volvo240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/Model/Volvo240.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Lab2A/Test.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2A/Model/FlatbedTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2A/Model/FlatbedTruck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CarView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/DrawPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/pics/Scania.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/pics/ScaniaG530.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/pics/UML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/MotorizedVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MotorizedVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Saab95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Saab95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Volvo240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Volvo240.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/FlatbedTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/FlatbedTruck.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
